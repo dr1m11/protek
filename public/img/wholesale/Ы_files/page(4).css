@@ -1,0 +1,138 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/RiskTest/page.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.page_page__Cior8 {
+  padding: 60px 20px 120px;
+  background-color: var(--background-color);
+}
+
+.page_title__rncxG {
+  font-size: 36px;
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 40px;
+}
+
+.page_form__t9vJR {
+  max-width: 860px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: var(--form-box-shadow);
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.page_question__IKDol {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: var(--text-color-dark);
+}
+
+.page_question__IKDol h3 {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.page_option__1ZlAs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.page_option__1ZlAs input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  margin: 0 5px 0 0;
+}
+.page_option__1ZlAs input[type='radio']::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  /* переносим точку в центр и одновременно прячем через scale */
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.1s ease-in-out;
+}
+.page_option__1ZlAs input[type='radio']:checked::after {
+  /* при чекнутом — просто масштабируем до 1 */
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.page_submitBtn__Ww5jk {
+  align-self: center;
+  padding: 12px 40px;
+  border-radius: 14px;
+  font-size: 18px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+.page_submitBtn__Ww5jk:hover {
+  transform: translateY(-2px);
+  background-color: var(--primary-color-dark);
+}
+
+.page_popup__b5vPo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 28px 40px;
+  border-radius: 14px;
+  box-shadow: var(--form-box-shadow);
+  z-index: 10000;
+  text-align: center;
+  min-width: 260px;
+}
+
+.page_popupClose__kEUAM {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.page_confetti__krNlh {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  z-index: 9999;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/shared/UI/customTitle/customTitle.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.customTitle_title__JBjyU {
+  font-size: clamp(2rem, 3vw, 48px);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 80px;
+  position: relative;
+}
+.customTitle_titleUp__aJy7M {
+  color: var(--secondary-color);
+}
+.customTitle_titleDown__FuLJR {
+  color: var(--secondary-color);
+}

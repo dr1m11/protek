@@ -1,0 +1,222 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/BackTesting/page.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__vkglz {
+  padding: 60px 20px 120px;
+  background-color: var(--background-color);
+  min-height: calc(100vh - 120px);
+}
+
+.page_formCard__MpwOA {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: box-shadow 0.25s ease;
+}
+.page_formCard__MpwOA:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.page_cardTitle__8M6GM {
+  position: absolute;
+  top: -16px;
+  left: 12px;
+  font-size: 14px;
+  padding: 2px 12px;
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+  border-radius: 4px 4px 0px 0px;
+  z-index: 10;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.page_pageTitle__ULMnB {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.page_formGroup__EEMK6 input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: transparent;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+.page_formGroup__EEMK6 input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(33, 141, 58, 0.1);
+}
+
+.page_formRow__80Ucw {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  align-items: center;
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.page_formGroup__EEMK6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.page_formGroup__EEMK6 label {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  background-color: #fff;
+  padding: 6px 3px;
+  font-size: 14px;
+  color: var(--primary-color);
+}
+.page_runBtn__azMV1,
+.page_addBtn__HL2y7 {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+.page_runBtn__azMV1:hover:not(:disabled),
+.page_addBtn__HL2y7:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+.page_runBtn__azMV1:disabled,
+.page_addBtn__HL2y7:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.page_addBtn__HL2y7 {
+  background: rgba(33, 141, 58, 0.1);
+  color: var(--primary-color);
+}
+.page_addBtn__HL2y7:hover:not(:disabled) {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.page_runBtn__azMV1 {
+  background: var(--primary-color);
+  color: #fff;
+}
+.page_runBtn__azMV1:hover:not(:disabled) {
+  background: var(--background-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.page_runBtn__azMV1:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+.page_runBtn__azMV1:disabled:hover {
+  background-color: #ccc;
+}
+
+.page_remaining__e7GnR {
+  font-size: 14px;
+  color: var(--text-color-second);
+}
+
+.page_assetsList__vPLlq {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.page_assetChip__2aONN {
+  background: rgba(33, 141, 58, 0.1);
+  color: var(--primary-color);
+  padding: 8px 12px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+.page_assetChip__2aONN:hover {
+  transform: translateY(-2px);
+  background: rgba(33, 141, 58, 0.2);
+}
+.page_assetChip__2aONN button {
+  background: transparent;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: inherit;
+}
+
+.page_results__wMByP {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.page_results__wMByP h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.page_chartWrapper__mIQT6 {
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  transition: box-shadow 0.25s ease;
+}
+.page_chartWrapper__mIQT6:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 768px) {
+  .page_formCard__MpwOA {
+    padding: 24px 20px;
+  }
+  .page_formRow__80Ucw {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .page_formCard__MpwOA {
+    padding: 20px 16px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/shared/UI/customTitle/customTitle.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.customTitle_title__JBjyU {
+  font-size: clamp(2rem, 3vw, 48px);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 80px;
+  position: relative;
+}
+.customTitle_titleUp__aJy7M {
+  color: var(--secondary-color);
+}
+.customTitle_titleDown__FuLJR {
+  color: var(--secondary-color);
+}

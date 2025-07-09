@@ -1,0 +1,1027 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/makePortfolio/page.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.page_page__nmRSn {
+  padding: 30px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page_page__nmRSn h1 {
+  text-align: center;
+  /* Let the CustomTitle component handle its own margin */
+}
+
+.page_container__40rZ2 {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .page_container__40rZ2 {
+    flex-direction: column;
+  }
+}
+
+.page_leftColumn__E7M5r {
+  flex: 1 1;
+  min-width: 300px;
+}
+@media (max-width: 768px) {
+  .page_leftColumn__E7M5r {
+    width: 100%;
+  }
+}
+
+.page_rightColumn__JCp36 {
+  flex: 2 1;
+}
+@media (max-width: 768px) {
+  .page_rightColumn__JCp36 {
+    width: 100%;
+  }
+}
+
+/* Card Styling */
+.page_card__Got8u {
+  position: relative;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: box-shadow 0.25s ease;
+}
+.page_card__Got8u:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.page_cardTitle__9kGdL {
+  position: absolute;
+  top: -16px;
+  left: 12px;
+  font-size: 14px;
+  padding: 2px 12px;
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+  border-radius: 4px 4px 0px 0px;
+  z-index: 10;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Input Styling */
+.page_investmentInput__OM__C,
+.page_searchInput___TFRO {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: transparent;
+  transition: all 0.25s ease;
+}
+.page_investmentInput__OM__C:focus,
+.page_searchInput___TFRO:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(33, 141, 58, 0.1);
+}
+
+/* Left column - Asset search */
+.page_searchBox__Vpnit {
+  margin-bottom: 16px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.page_searchInput___TFRO::placeholder {
+  color: #ccc;
+}
+
+.page_assetsList__uKFjD {
+  max-height: 500px;
+  overflow-y: auto;
+  margin-top: 16px;
+}
+
+.page_assetItem__w_yTx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  transition: background-color 0.2s ease;
+}
+.page_assetItem__w_yTx:hover {
+  background-color: rgba(33, 141, 58, 0.05);
+}
+.page_assetItem__w_yTx:last-child {
+  border-bottom: none;
+}
+
+.page_assetInfo__A5hiM {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.page_assetTicker___Cr78 {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.page_assetName__CUbOg {
+  font-size: 14px;
+  color: var(--text-color-second);
+}
+
+.page_assetPrice__Znp6L {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.page_addButton__FWGqA {
+  padding: 8px 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition:
+    background-color 0.25s ease,
+    transform 0.25s ease;
+}
+.page_addButton__FWGqA:hover:not(:disabled) {
+  background-color: var(--primary-color-dark);
+  transform: translateY(-2px);
+}
+.page_addButton__FWGqA:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* Риск-профиль */
+.page_riskProfileControls__1fj7x {
+  margin-top: 16px;
+}
+
+.page_riskProfileToggle___OXap {
+  display: flex;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.page_riskProfileBtn__Y8mdI {
+  flex: 1 1;
+  padding: 10px;
+  border: none;
+  background: #f5f5f5;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+.page_riskProfileBtn__Y8mdI:hover {
+  background: #f0f0f0;
+}
+.page_riskProfileBtn__Y8mdI.page_active__a_JEp {
+  background: var(--primary-color);
+  color: white;
+}
+.page_riskProfileBtn__Y8mdI:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.page_riskProfileOptions__CMzU9 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.page_riskOption__WDyBe {
+  flex: 1 1;
+  padding: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 14px;
+}
+.page_riskOption__WDyBe:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 1px rgba(33, 141, 58, 0.1);
+}
+.page_riskOption__WDyBe.page_active__a_JEp {
+  background: rgba(33, 141, 58, 0.1);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.page_riskProfileDescription__IvWL5 {
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.page_riskProfileDescription__IvWL5 p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--text-color);
+}
+
+.page_riskAllocationBars__anHjt {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.page_allocationBar__3_uIs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.page_allocationBar__3_uIs span {
+  font-size: 13px;
+  color: var(--text-color-second);
+}
+
+.page_barOuter__iMJAL {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.page_barInner__saRTK {
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.page_userRiskProfile__hZJx_ {
+  padding: 16px 0;
+}
+
+.page_riskProfileTextarea__bg7_f {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  resize: none;
+  font-size: 14px;
+  font-family: inherit;
+  transition: all 0.25s ease;
+}
+.page_riskProfileTextarea__bg7_f:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(33, 141, 58, 0.1);
+}
+.page_riskProfileTextarea__bg7_f::placeholder {
+  color: #aaa;
+}
+
+/* Right column - Portfolio */
+.page_investmentBox__ujzE8 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.page_investmentBox__ujzE8 label {
+  display: block;
+  font-size: 14px;
+  color: var(--text-color-second);
+  margin-bottom: 8px;
+}
+
+.page_investmentInput__OM__C {
+  text-align: center;
+}
+
+.page_portfolioActions__3zUqi {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.page_actionButton__3iuZA {
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+.page_actionButton__3iuZA:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+.page_actionButton__3iuZA:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.page_actionButton__3iuZA {
+  flex: 1 1;
+  background: var(--primary-color);
+  color: #fff;
+}
+.page_actionButton__3iuZA:hover:not(:disabled) {
+  background: var(--background-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.page_weightError__gUIvC {
+  padding: 12px;
+  background-color: rgba(255, 71, 87, 0.1);
+  color: #ff4757;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.page_emptyPortfolio__rhSPB {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-color-second);
+  font-size: 16px;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.page_portfolioTable__7tO8I {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.page_tableHeader__g0E8s {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr 0.8fr 1fr 0.8fr;
+  grid-gap: 10px;
+  gap: 10px;
+  background-color: rgba(33, 141, 58, 0.1);
+  border-bottom: 1px solid rgba(33, 141, 58, 0.2);
+  padding: 12px 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+.page_tableRow__HshBy {
+  display: grid;
+  grid-template-columns: 2fr 0.8fr 0.8fr 1fr 0.8fr;
+  grid-gap: 10px;
+  gap: 10px;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+.page_tableRow__HshBy:hover {
+  background-color: rgba(33, 141, 58, 0.02);
+}
+.page_tableRow__HshBy:last-child {
+  border-bottom: none;
+}
+
+.page_assetCell__7zAf5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.page_weightCell__mzqjz,
+.page_amountCell__w3lfu,
+.page_valueCell__Il1Ou {
+  font-size: 14px;
+}
+
+.page_weightInput__UyvGB {
+  width: 70px;
+  height: 32px;
+  padding: 0 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 14px;
+  text-align: center;
+}
+.page_weightInput__UyvGB:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(33, 141, 58, 0.1);
+}
+
+.page_removeButton__38izR {
+  padding: 6px 10px;
+  background-color: transparent;
+  color: #ff4757;
+  border: 1px solid rgba(255, 71, 87, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease;
+}
+.page_removeButton__38izR:hover {
+  background-color: rgba(255, 71, 87, 0.05);
+}
+
+/* Пончиковая диаграмма */
+.page_chartWrapper__t9H9d {
+  margin-top: 24px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding-top: 20px;
+}
+
+/* Metrics */
+.page_metrics__ZJ3_k {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 16px;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.page_metric__gnLPD {
+  padding: 16px;
+  background-color: rgba(33, 141, 58, 0.03);
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.25s ease;
+}
+.page_metric__gnLPD:hover {
+  transform: translateY(-2px);
+}
+
+.page_metricLabel__luBla {
+  font-size: 14px;
+  color: var(--text-color-second);
+  margin-bottom: 6px;
+}
+
+.page_metricValue__J3j1E {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .page_container__40rZ2 {
+    grid-template-columns: 1fr;
+  }
+  .page_leftColumn__E7M5r {
+    max-width: 100%;
+  }
+  .page_assetsList__uKFjD {
+    max-height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .page_page__nmRSn {
+    padding: 40px 16px 80px;
+  }
+  .page_tableHeader__g0E8s,
+  .page_tableRow__HshBy {
+    grid-template-columns: 1.5fr 0.8fr 0.8fr 1fr 0.6fr;
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+  .page_weightInput__UyvGB {
+    width: 60px;
+    height: 28px;
+    font-size: 13px;
+  }
+  .page_riskProfileOptions__CMzU9 {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .page_card__Got8u {
+    padding: 16px;
+  }
+  .page_tableHeader__g0E8s,
+  .page_tableRow__HshBy {
+    grid-template-columns: 1.2fr 0.8fr 0.6fr 0.8fr 0.6fr;
+    font-size: 12px;
+    padding: 8px;
+    gap: 6px;
+  }
+  .page_portfolioActions__3zUqi {
+    flex-direction: column;
+  }
+  .page_metrics__ZJ3_k {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .page_riskProfileToggle___OXap {
+    flex-direction: column;
+  }
+  .page_riskProfileBtn__Y8mdI:first-child {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/shared/UI/customTitle/customTitle.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.customTitle_title__JBjyU {
+  font-size: clamp(2rem, 3vw, 48px);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 80px;
+  position: relative;
+}
+.customTitle_titleUp__aJy7M {
+  color: var(--secondary-color);
+}
+.customTitle_titleDown__FuLJR {
+  color: var(--secondary-color);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/makePortfolio/components/AssetSearch/AssetSearch.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.AssetSearch_card__z_6CY {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.AssetSearch_cardTitle__4zwBB {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.AssetSearch_searchBox__PSIuz {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.AssetSearch_searchInput__RHzTC {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.AssetSearch_searchInput__RHzTC:focus {
+  border-color: var(--primary-color);
+}
+
+.AssetSearch_assetsList__3Pql1 {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+}
+
+.AssetSearch_assetItem__JEXlM {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s;
+}
+.AssetSearch_assetItem__JEXlM:hover {
+  background-color: #f9f9f9;
+}
+.AssetSearch_assetItem__JEXlM:last-child {
+  border-bottom: none;
+}
+
+.AssetSearch_assetInfo__OBhat {
+  display: flex;
+  flex-direction: column;
+}
+
+.AssetSearch_assetTicker__3zTFa {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.AssetSearch_assetName__Jao7g {
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.AssetSearch_assetPrice__fgM_A {
+  font-size: 14px;
+  color: #444;
+  margin-top: 5px;
+}
+
+.AssetSearch_addButton__eC5Ys {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  align-self: center;
+  transition: background-color 0.2s;
+}
+.AssetSearch_addButton__eC5Ys:hover {
+  background-color: rgb(28.1637931034, 120.3362068966, 49.5);
+}
+.AssetSearch_addButton__eC5Ys:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/makePortfolio/components/RiskProfileSelector/RiskProfileSelector.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.RiskProfileSelector_card__RQBis {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.RiskProfileSelector_cardTitle__3qI6H {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.RiskProfileSelector_riskProfileControls__nimc4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.RiskProfileSelector_riskProfileToggle__PjfYZ {
+  display: flex;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.RiskProfileSelector_riskProfileBtn__hM_74 {
+  flex: 1 1;
+  padding: 10px;
+  border: none;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  color: #666;
+}
+.RiskProfileSelector_riskProfileBtn__hM_74:hover {
+  background-color: #f0f0f0;
+}
+.RiskProfileSelector_riskProfileBtn__hM_74.RiskProfileSelector_active__nXVsa {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.RiskProfileSelector_riskProfileSelection__Pyz8W {
+  margin-top: 10px;
+}
+
+.RiskProfileSelector_riskProfileOptions__2sOtj {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.RiskProfileSelector_riskOption__QfVls {
+  flex: 1 1;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.RiskProfileSelector_riskOption__QfVls:first-child {
+  margin-left: 0;
+}
+.RiskProfileSelector_riskOption__QfVls:last-child {
+  margin-right: 0;
+}
+.RiskProfileSelector_riskOption__QfVls:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+.RiskProfileSelector_riskOption__QfVls.RiskProfileSelector_active__nXVsa {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.RiskProfileSelector_riskProfileDescription__qfRiz {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.RiskProfileSelector_riskProfileDescription__qfRiz p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.RiskProfileSelector_riskAllocationBars__CMqUx {
+  margin-top: 15px;
+}
+
+.RiskProfileSelector_allocationBar__LT_Gx {
+  margin-bottom: 10px;
+}
+.RiskProfileSelector_allocationBar__LT_Gx span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: #555;
+}
+
+.RiskProfileSelector_barOuter__qnHsh {
+  width: 100%;
+  height: 8px;
+  background-color: #eaeaea;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.RiskProfileSelector_barInner__UM0Gb {
+  height: 100%;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.RiskProfileSelector_userRiskProfile__ngm97 {
+  margin-top: 15px;
+}
+
+.RiskProfileSelector_riskProfileTextarea__iKLF5 {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  resize: none;
+  font-size: 14px;
+  line-height: 1.5;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.RiskProfileSelector_riskProfileTextarea__iKLF5:focus {
+  border-color: var(--primary-color);
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/makePortfolio/components/PortfolioBuilder/PortfolioBuilder.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PortfolioBuilder_card__xi3pP {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.PortfolioBuilder_cardTitle__EOMCw {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.PortfolioBuilder_investmentBox__rQ0Po {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.PortfolioBuilder_investmentBox__rQ0Po label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.PortfolioBuilder_investmentInput__V_hKz {
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.PortfolioBuilder_investmentInput__V_hKz:focus {
+  border-color: var(--primary-color);
+}
+
+.PortfolioBuilder_portfolioActions__Psha3 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.PortfolioBuilder_actionButton___Y8fs {
+  flex: 1 1;
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+.PortfolioBuilder_actionButton___Y8fs:hover {
+  background-color: rgb(28.1637931034, 120.3362068966, 49.5);
+}
+.PortfolioBuilder_actionButton___Y8fs:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.PortfolioBuilder_weightError__SOrpI {
+  color: #d32f2f;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ffebee;
+  border-radius: 5px;
+}
+
+.PortfolioBuilder_emptyPortfolio__AFM5C {
+  padding: 30px 0;
+  text-align: center;
+  color: #888;
+  font-size: 16px;
+}
+
+.PortfolioBuilder_portfolioTable__6TmUG {
+  margin-top: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.PortfolioBuilder_tableHeader__4FiyZ {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr 1fr;
+  background-color: #f9f9f9;
+  padding: 12px 15px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #444;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.PortfolioBuilder_tableRow__xxoSN {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr 1fr;
+  padding: 15px;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+.PortfolioBuilder_tableRow__xxoSN:last-child {
+  border-bottom: none;
+}
+.PortfolioBuilder_tableRow__xxoSN:hover {
+  background-color: #f9f9f9;
+}
+
+.PortfolioBuilder_assetCell__0RXgu {
+  display: flex;
+  flex-direction: column;
+}
+
+.PortfolioBuilder_assetTicker__KOuoA {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+}
+
+.PortfolioBuilder_assetName__rwJj5 {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.PortfolioBuilder_weightCell__CsLmv,
+.PortfolioBuilder_amountCell___PD7T,
+.PortfolioBuilder_valueCell__bTduP,
+.PortfolioBuilder_actionCell__8scVI {
+  text-align: center;
+}
+
+.PortfolioBuilder_weightInput__zGh1Q {
+  width: 70px;
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.PortfolioBuilder_weightInput__zGh1Q:focus {
+  border-color: var(--primary-color);
+}
+
+.PortfolioBuilder_removeButton__HZofS {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s;
+}
+.PortfolioBuilder_removeButton__HZofS:hover {
+  background-color: rgb(242.6768867925, 44.3867924528, 29.8231132075);
+}
+
+.PortfolioBuilder_chartWrapper__2aExj {
+  margin-top: 30px;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/makePortfolio/components/PortfolioChart/PortfolioChart.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PortfolioChart_chartContainer__HaeVC {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/makePortfolio/components/PortfolioMetrics/PortfolioMetrics.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PortfolioMetrics_card__4Ibw7 {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.PortfolioMetrics_cardTitle__bSKS0 {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.PortfolioMetrics_metrics__XJnWV {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.PortfolioMetrics_metric__iQqLN {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.PortfolioMetrics_metricLabel__Ehqwi {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.PortfolioMetrics_metricValue__xyHcV {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--primary-color);
+}

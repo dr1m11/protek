@@ -1,0 +1,243 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/screens/Optimiser/page.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__09jTP {
+  padding: 60px 20px 120px;
+  background-color: var(--background-color);
+  min-height: calc(100vh - 120px);
+}
+
+.page_pageTitle__F0G_b {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--text-color);
+}
+
+.page_formCard__11B59 {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 32px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: box-shadow 0.25s ease;
+}
+.page_formCard__11B59:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.page_cardTitle__cqzVP {
+  position: absolute;
+  top: -16px;
+  left: 12px;
+  font-size: 14px;
+  padding: 2px 12px;
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+  border-radius: 4px 4px 0px 0px;
+  z-index: 10;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.page_toggleButton__hVrUX,
+.page_formGroup__g4BcM input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: transparent;
+  transition: all 0.25s ease;
+  text-align: center;
+}
+.page_toggleButton__hVrUX:focus,
+.page_formGroup__g4BcM input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(33, 141, 58, 0.1);
+}
+
+.page_formGroup__g4BcM {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.page_formGroup__g4BcM label {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  font-size: 14px;
+  color: var(--primary-color);
+  background-color: #fff;
+  padding: 6px 3px;
+}
+.page_assets__cHeNZ {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.page_assets__cHeNZ .page_formGroup__g4BcM {
+  flex: 1 1;
+}
+
+.page_investmentTypeToggleContainer__G3TkO {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.page_toggleButton__hVrUX {
+  width: auto;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+.page_toggleButton__hVrUX:hover {
+  background-color: #e0e0e0;
+}
+.page_toggleButton__hVrUX.page_activeToggle__Bai4S {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-color: var(--primary-color);
+}
+
+.page_suggestionsList__hLOUa {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  position: absolute;
+  width: calc(100% - 32px);
+  z-index: 20;
+  max-height: 150px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.page_suggestionsList__hLOUa li {
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.page_suggestionsList__hLOUa li:hover {
+  background-color: rgba(33, 141, 58, 0.1);
+}
+
+.page_submitBtn__e9ReE {
+  align-self: flex-start;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  background: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+.page_submitBtn__e9ReE:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: var(--background-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.page_submitBtn__e9ReE:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.page_results__durm2 {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.page_resultCard__5Eant {
+  position: relative;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition:
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+.page_resultCard__5Eant:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+.page_resultCard__5Eant h3 {
+  position: absolute;
+  top: -16px;
+  left: 12px;
+  font-size: 14px;
+  padding: 2px 12px;
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+  border-radius: 4px 4px 0px 0px;
+  margin: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.page_resultCard__5Eant p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+.page_resultCard__5Eant p strong {
+  color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .page_formCard__11B59 {
+    padding: 24px 20px;
+  }
+  .page_results__durm2 {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .page_formCard__11B59,
+  .page_resultCard__5Eant {
+    padding: 20px 16px;
+  }
+  .page_resultCard__5Eant {
+    padding-top: 28px;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/shared/UI/customTitle/customTitle.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.customTitle_title__JBjyU {
+  font-size: clamp(2rem, 3vw, 48px);
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 80px;
+  position: relative;
+}
+.customTitle_titleUp__aJy7M {
+  color: var(--secondary-color);
+}
+.customTitle_titleDown__FuLJR {
+  color: var(--secondary-color);
+}
